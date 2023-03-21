@@ -2,6 +2,8 @@ ls - Gives the list of current files in the main folder.
 console
 git status
 cd
+
+.git - A hidden folder which contains the local commits.
 git init - Will instantiate a new git repo in whichever directory we are in.
 git status - Gives the current status of the project, files and the staging area info.
 
@@ -12,3 +14,11 @@ Staging Area - A place when the current changes are recorded before being commit
 
 git add file1 file2 - Will add the space seperated files to the staging area.
 git commit -m "message" - Used to commit a change along with a message. Only git commit can also be used, but will launce a 2nd party app for the message.
+code . - Will open the whole directory in VS code
+git add . - Adds all the status files to the commit
+
+Atomic Commits -- It is better to keep the commits as one change at a time. This makes it easier fork the commits without rolling down to manny previous versions.
+
+Git recommends us to use present tense while commiting changes.
+
+test
