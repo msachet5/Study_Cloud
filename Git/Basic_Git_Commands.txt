@@ -1,4 +1,14 @@
-ls
+ls - Gives the list of current files in the main folder.
 console
 git status
 cd
+git init - Will instantiate a new git repo in whichever directory we are in.
+git status - Gives the current status of the project, files and the staging area info.
+
+Commits - Are checkpoints, like snapshots of things and new changes in the project.
+Working Directory - Refers to the current location when code is being written or updates.
+Repository - The .git folder while gets updates whenever a new commit is made.
+Staging Area - A place when the current changes are recorded before being commited.
+
+git add file1 file2 - Will add the space seperated files to the staging area.
+git commit -m "message" - Used to commit a change along with a message. Only git commit can also be used, but will launce a 2nd party app for the message.
