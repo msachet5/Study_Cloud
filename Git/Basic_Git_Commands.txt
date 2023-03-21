@@ -1,11 +1,13 @@
 ls - Gives the list of current files in the main folder.
 console
 git status
-cd
+cd - To change the directory within the current directory.
 
 .git - A hidden folder which contains the local commits.
 git init - Will instantiate a new git repo in whichever directory we are in.
 git status - Gives the current status of the project, files and the staging area info.
+touch files.txt - Used to create a new file in directory.
+cd .. - To go to the previous main directory.
 
 Commits - Are checkpoints, like snapshots of things and new changes in the project.
 Working Directory - Refers to the current location when code is being written or updates.
@@ -21,4 +23,8 @@ Atomic Commits -- It is better to keep the commits as one change at a time. This
 
 Git recommends us to use present tense while commiting changes.
 
-test
+git log --oneline - Gives the log as the first line in each commit message.
+
+git commit --amend - Used after commiting. This lets us change the files commited and the commit message. We can only use this to change the last commit.
+
+.gitignore - We use this file to store the names of the files and folders we dont want to commit. Like API keys, node packages and other related data.
