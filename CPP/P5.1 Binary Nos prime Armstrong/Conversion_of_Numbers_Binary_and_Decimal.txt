@@ -1,0 +1,6 @@
+To convert a number from binary to decimal,
+We represent the number as a sum of power of two
+Ex. 45 = 1x2pow(5) + 0x2pow(4) + 1x2pow(3) + 1x2pow(2) + 0x2pow(1) + 1x2pow(0)
+.
+To convert a number from decimal to binary,
+We divide the number by two and keep storing the remainder till we reach a zero quotient.
